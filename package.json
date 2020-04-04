@@ -1,0 +1,30 @@
+{
+  "name": "cli-cryptocurrency",
+  "version": "1.0.0",
+  "description": "Node.js CLI For Cryptocurrency Prices",
+  "main": "index.js",
+  "bin": {
+    "cryptocurrency": "./bin/cryptocurrency.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahendra0859/cli-cryptocurrency.git"
+  },
+  "keywords": [],
+  "author": "Mahendra AR <mahendra0859@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahendra0859/cli-cryptocurrency/issues"
+  },
+  "homepage": "https://github.com/mahendra0859/cli-cryptocurrency#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "colors": "^1.4.0",
+    "commander": "^5.0.0",
+    "configstore": "^5.0.1",
+    "inquirer": "^7.1.0"
+  }
+}
